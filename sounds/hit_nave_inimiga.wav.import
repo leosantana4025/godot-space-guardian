@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hit_nave_inimiga.wav-d1618e1c3d124730fdb26e90b02b1342.sample"
+
+[deps]
+
+source_file="res://sounds/hit_nave_inimiga.wav"
+dest_files=[ "res://.import/hit_nave_inimiga.wav-d1618e1c3d124730fdb26e90b02b1342.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

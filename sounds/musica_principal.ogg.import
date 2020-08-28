@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/musica_principal.ogg-af7e72ea8f7858ef44982da9495ca94f.oggstr"
+
+[deps]
+
+source_file="res://sounds/musica_principal.ogg"
+dest_files=[ "res://.import/musica_principal.ogg-af7e72ea8f7858ef44982da9495ca94f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

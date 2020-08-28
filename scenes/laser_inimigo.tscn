@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://scenes/laser.tscn" type="PackedScene" id=1]
+[ext_resource path="res://sprites/laser_inimigo.png" type="Texture" id=2]
+[ext_resource path="res://scripts/laser_inimigo.gd" type="Script" id=3]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 8.58195
+height = 0.0
+
+[node name="laser_inimigo" instance=ExtResource( 1 )]
+script = ExtResource( 3 )
+velocidade = Vector2( 0, 150 )
+
+[node name="imagem_laser" parent="." index="0"]
+texture = ExtResource( 2 )
+
+[node name="area_colisao_laser" parent="." index="1"]
+shape = SubResource( 1 )

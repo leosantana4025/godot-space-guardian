@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scenes/inimigo.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scripts/nave_inimiga.gd" type="Script" id=2]
+[ext_resource path="res://sprites/nave_inimiga.png" type="Texture" id=3]
+
+[node name="nave_inimiga" instance=ExtResource( 1 )]
+position = Vector2( 99, 40 )
+script = ExtResource( 2 )
+vida = 6
+valor_score = 10
+velocidade = Vector2( 60, 60 )
+
+[node name="imagem_inimigo" parent="." index="0"]
+position = Vector2( 0, 2 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 3 )
+
+[node name="area_colisao_inimigo" parent="." index="1"]
+position = Vector2( 0, 2 )
+
+[node name="canhao" type="Position2D" parent="." index="2"]
+position = Vector2( 0, 16 )

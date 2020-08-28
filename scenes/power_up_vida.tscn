@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scenes/power_up.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scripts/power_up_vida.gd" type="Script" id=2]
+[ext_resource path="res://sprites/power_up_vida.png" type="Texture" id=3]
+
+[node name="powerup_vida" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="imagem_power_up" parent="." index="0"]
+texture = ExtResource( 3 )

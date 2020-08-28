@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/laser_inimigo.wav-8cb8404127bf0698520ff5e28a78a48e.sample"
+
+[deps]
+
+source_file="res://sounds/laser_inimigo.wav"
+dest_files=[ "res://.import/laser_inimigo.wav-8cb8404127bf0698520ff5e28a78a48e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
